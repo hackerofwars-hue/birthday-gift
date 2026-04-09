@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>For Someone Special 💖</title>
+
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    background: black;
+}
+
+/* Stars background */
+.stars {
+    width: 100%;
+    height: 100%;
+    background: transparent url('https://www.transparenttextures.com/patterns/stardust.png') repeat;
+    position: absolute;
+    z-index: -1;
+    animation: moveStars 60s linear infinite;
+}
+
+@keyframes moveStars {
+    from {background-position: 0 0;}
+    to {background-position: 10000px 5000px;}
+}
+
+h1 {
+    margin-top: 80px;
+    font-size: 3em;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+button:hover {
+    background: #ff4d6d;
+    color: white;
+}
+
+#wish {
+    display: none;
+    width: 85%;
+    max-width: 800px;
+    margin: 40px auto;
+    background: rgba(255,255,255,0.1);
+    padding: 25px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    animation: fadeIn 2s ease;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(20px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="stars"></div>
+
+<h1>🎂 Happy Birthday 🌌💖</h1>
+<p>Click to see something special ✨</p>
+
+<button onclick="showWish()">Open My Heart 💌</button>
+
+<div id="wish">
+
+<h2>💖 My Beautiful Wish 💖</h2>
+
+<p>
+Today is not just a birthday... it's the day the most special person came into this world 🌍✨ <br><br>
+
+I pray that your life is always filled with happiness, success, and endless smiles 💫  
+May every dream you have turn into reality, and every step you take lead you to something beautiful 🌸  
+
+<br><br>
+
+And now something from my heart... ❤️  
+You are not just someone special… you are my peace, my happiness, my everything 💕  
+Your smile brightens my darkest days, and your presence makes my world complete 😍  
+
+I don’t know what I did to deserve you, but I’m thankful every single day 🙏  
+I wish I could always stay by your side and make you smile forever...  
+
+<br><br>
+
+💞 Urdu Wishes 💞 <br><br>
+
+Aaj ka din sirf ek birthday nahi… balkay us khoobsurat insan ka din hai jo meri zindagi ki sab se pyari wajah hai 💖  
+
+Main dua karta hoon ke tumhari zindagi hamesha khushiyon se bhari rahe 🌸  
+Allah tumhe har wo cheez de jo tum chahtay ho, aur tumhari har dua qabool ho 🤲✨  
+
+<br><br>
+
+Aur dil ki baat... ❤️  
+Tum meri zindagi ka sab se khoobsurat hissa ho 😍  
+Tumhari muskurahat meri duniya roshan kar deti hai 😊  
+Main hamesha tumhare saath rehna chahta hoon...  
+
+Tum sirf ek insan nahi, meri poori duniya ho 💕  
+
+<br><br>
+
+Once again... Happy Birthday My Love 🎂💖🌌
+</p>
+
+<img src="https://media.giphy.com/media/l0MYyDa6ZrJv7c1Ve/giphy.gif" width="250">
+
+</div>
+
+<audio autoplay loop>
+<source src="https://www.bensound.com/bensound-music/bensound-slowmotion.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+function showWish() {
+    document.getElementById("wish").style.display = "block";
+}
+</script>
+
+</body>
+</html>
